@@ -1,0 +1,19 @@
+{
+    "name": "jinesh/forexnp",
+    "description": "this is my nepal forex",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jinesh\\Forexnp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jinesh subedi",
+            "email": "jinesh1094@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
