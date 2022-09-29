@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'title' => 'Forex Exchange'
+    'title' => 'Foreign Exchange Rates'
 ];

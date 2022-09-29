@@ -12,9 +12,8 @@
 
 <body>
     <div class="container tp60p">
-        <h3>{{$datas['title']}}</h3>
-        <p>{{trans('forex::forex.description')}}</p>
         <div class="" id="myTabContent">
+            <h3>{{$datas['title']}}</h3>
             <div class="row mb-5">
                 <div class="col-md-4 form-group">
                     <label for="">Date</label>
@@ -25,6 +24,7 @@
                 </div>
             </div>
             <div class="table-responsive">
+                <p style="text-align:right">{!! trans('forex::forex.description') !!}</p>
                 <table class="table table-bordered table-striped">
                     <thead>
                         <tr>
